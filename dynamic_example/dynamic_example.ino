@@ -160,7 +160,7 @@ void startConfigPortal() {
   #elif defined(ESP8266)
     String chipId = String(ESP.getChipId(), HEX);
     chipId.toUpperCase();
-    apName = "ESP8266_" + chipId;
+    apName = "ESP32_" + chipId;
   #endif
 
   WiFi.softAP(apName.c_str());
