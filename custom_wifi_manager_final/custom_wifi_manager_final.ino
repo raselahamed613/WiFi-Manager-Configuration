@@ -1,7 +1,7 @@
 // ============================================================
 //  Custom WiFi Manager — Compatible with ESP32 & ESP8266
 //  Detects the target chip automatically via preprocessor guards.
-// ============================================================
+// ================= Dev Branch ===========================================
 
 // ---------- Platform-specific headers ----------
 #ifdef ESP32
